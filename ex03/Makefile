@@ -1,7 +1,7 @@
-# Makefile for cpp03/ex01
+# Makefile for cpp03/ex03
 
 # Program name
-NAME := ScavTrap
+NAME := DiamondTrap
 
 # Directory paths
 SRC_DIR := src

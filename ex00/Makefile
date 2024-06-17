@@ -24,7 +24,7 @@ SRCS := $(filter-out $(EXCLUDE_FILES), $(SRC_FILES))
 OBJS := $(SRCS:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 
 # Compiler settings
-CC := g++
+CC := c++
 CFLAGS := -MMD -MP -Wall -Werror -Wextra -std=c++98 $(if $(NOWARN), -w)
 
 # Include directories to search for header files
